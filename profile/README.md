@@ -11,104 +11,31 @@
 
 </div>
 
-## Every new economic system will need simulation before deployment.
+Loka Labs builds the **Economic World Model** — a simulation infrastructure designed to mathematically verify the economic consequences of systemic decisions before they are deployed. 
 
-Just like: 
-— No plane flies without a simulator 
-— No chip ships without testing 
-— No drug goes to market without trials
-
-Economic systems are the last domain without simulation infrastructure.
-
-**This will not remain true.**
-
-Loka Labs is building it.
-
----
-
-## What We Do
-
-Loka Labs builds the Economic World Model — simulation infrastructure that lets governments, charter cities, and sovereign institutions verify the economic consequences of a decision before it touches a single life.
-
----
-
-## The Problem
-
-Every major economic policy decision today is an experiment on real people.
-
-**Traditional macro models** (used by the IMF, World Bank) assume populations are identical, rational, and static. They are not.
-
-**Expert consultation** is subjective, slow, and cannot simulate emergent behavior across millions of heterogeneous agents.
-
-**Historical backtesting** explains the past. It cannot predict the consequences of novel policy in genuinely new environments — which is exactly the situation facing every charter city, AI jurisdiction, and sovereign economic zone being built today.
-
-One real-world policy trial costs $10M–$100M+ and takes 2–5 years. The cost of failure is measured in billions of dollars and millions of livelihoods.
-
----
-
-## The Solution
-
-Loka Labs is the first simulation infrastructure purpose-built for economic systems. Three layers work together — no existing tool has all three:
-
-**Layer 1 · Simulation**
-LLM-powered economic agents that replicate individual behavior, decision logic, and social interaction at scale. Handles the heterogeneity and irrationality of real humans. Runs on open-source models, fully locally.
-
-**Layer 2 · Constraint**
-A first-principles economic engine: supply and demand, price elasticity, game theory, budget constraints, market clearing. Quantitative rules that prevent simulation drift and enforce economic reality. 
-*LLM handles human nature. Economics handles the physics.*
-
-**Layer 3 · Verification**
-A formal verification framework — rooted in the model-checking methodology pioneered by our Chief Scientist — that mathematically proves boundary conditions before results are acted upon. Results are provable, not just probable.
-
-**Key properties:**
-- Model-agnostic — runs on any open-source LLM (Llama, Mistral, Qwen, others)
-- Fully local deployment — data never leaves the client's sovereign jurisdiction
-- Scales to million-agent simulations via distributed architecture
-
----
-
-## Why Now
-
-Three forces are converging to make this possible — and necessary — today.
-
-**01 · Agent behavior cost collapsed**
-LLM inference cost dropped 280× between 2022 and 2024 (Stanford AI Index 2025). What needed supercomputers in 2020 now runs on commodity clusters. By 2027, running a million economic agents in parallel will be trivial.
-
-**02 · Distributed compute enables million-agent scale**
-MIT AgentTorch has already demonstrated 5 million agent simulations — a full national digital twin of New Zealand — within an academic budget. Advances in distributed AI/ML infrastructure, directly reflected in our CTO's published research, make this broadly accessible now.
-
-**03 · New economic bodies need new tools**
-Charter cities, AI jurisdictions, and sovereign economic zones are being built from zero with no historical data, no legacy systems, and no existing simulation tools. 88% of organizations are now using AI in at least one function (McKinsey 2025), yet the tools for verifying economic outcomes before deployment do not exist.
-
-No one is building an Economic World Model. The window is open now.
-
----
-
-## Market Opportunity
-
-Simulation is becoming the infrastructure layer of the intelligent economy. Four converging markets underpin this:
-
-| Market | 2025 | 2030 | CAGR |
-|---|---|---|---|
-| **Digital Twin** | $211B | $1,498B | 48% |
-| **AI Agent** | $78B | $526B | 46% |
-| **Predictive Analytics** | $189B | $824B | 28% |
-| **AI Inference** | $1,062B | $2,550B | 19% |
-
-The AI agent market alone is growing 46% per year — 6.7× in five years. Digital twin infrastructure is on a similar trajectory. Both are enablers of economic simulation at scale.
-
-Gartner forecasts that by 2026, 40% of enterprise applications will embed AI agents — up from less than 5% today. Each agent making autonomous decisions is, at its core, running a micro-simulation. The total demand for simulation infrastructure grows as the cube of `agent count × decision frequency × simulation depth`.
-
-*(Sources: Epoch AI, Gartner, MarketsandMarkets, Deloitte · 2025)*
-
----
-
-## How It Works
+While traditional macroeconomic models assume identical, static populations, Loka provides the first simulation infrastructure purpose-built for economic systems to scale emergent behavior across millions of heterogeneous agents.
 
 **What we simulate:**
 Economic systems — not physical reality, not individual consumer preferences. The "physics" of an economy is different from the physics of the real world: it is driven by incentives, information asymmetry, expectations, game theory, and emergent behavior.
 
-### The Architecture
+---
+
+## 🛠️ Infrastructure Layers
+
+Our infrastructure consists of three core computational layers:
+
+- **Layer 1 · Simulation (LLM Agents):** Powered by open-source LLMs deployed locally, this layer replicates individual behavior, decision logic, and social interactions at scale, capturing human heterogeneity and irrationality.
+- **Layer 2 · Constraint (First-Principles Engine):** An economic engine enforcing supply/demand, price elasticity, budget constraints, game theory, and market clearing. It introduces strict quantitative rules to prevent simulation drift. *LLMs handle behavior; this engine handles the "physics" of the economy.*
+- **Layer 3 · Verification (Formal Methods):** A verification framework based on model-checking that mathematically proves boundary conditions and guarantees system properties before any simulated results are acted upon.
+
+### Key Technical Properties:
+- **Model-agnostic:** Runs with any open-source LLM (Llama, Mistral, Qwen, etc.).
+- **Privacy-preserving:** Fully local, sovereign deployment ensuring data residency.
+- **Distributed Scale:** Architecture designed to scale to million-agent simulations efficiently.
+
+---
+
+## 🏗️ The Architecture
 
 ```text
 ┌─────────────────────────────────────────────────────┐
