@@ -11,50 +11,80 @@
 
 </div>
 
+## Every new economic system will need simulation before deployment.
+
 Just like: 
 — No plane flies without a simulator 
 — No chip ships without testing 
 — No drug goes to market without trials
 
-**Economic systems are the last domain without simulation infrastructure.**
+Economic systems are the last domain without simulation infrastructure.
 
-This will not remain true. **Loka Labs is building it.**
+**This will not remain true.**
 
-Loka Labs builds the Economic World Model — simulation infrastructure that lets governments, charter cities, and sovereign institutions verify the economic consequences of a decision before it touches a single life.
-
-Every major economic policy decision today is an experiment on real people.
-Traditional macro models (used by the IMF, World Bank) assume populations are identical, rational, and static. They are not.
-Expert consultation is subjective, slow, and cannot simulate emergent behavior across millions of heterogeneous agents.
-Historical backtesting explains the past. It cannot predict the consequences of novel policy in genuinely new environments — which is exactly the situation facing every charter city, AI jurisdiction, and sovereign economic zone being built today.
-
-One real-world policy trial costs $10M–$100M+ and takes 2–5 years. The cost of failure is measured in billions of dollars and millions of livelihoods.
-
-**Loka Labs is the first simulation infrastructure purpose-built for economic systems.** Three layers work together — no existing tool has all three:
-
-- **Layer 1 · Simulation:** LLM-powered economic agents that replicate individual behavior, decision logic, and social interaction at scale. Handles the heterogeneity and irrationality of real humans. Runs on open-source models, fully locally.
-- **Layer 2 · Constraint:** A first-principles economic engine: supply and demand, price elasticity, game theory, budget constraints, market clearing. Quantitative rules that prevent simulation drift and enforce economic reality. LLM handles human nature. Economics handles the physics.
-- **Layer 3 · Verification:** A formal verification framework — rooted in the model-checking methodology pioneered by our Chief Scientist — that mathematically proves boundary conditions before results are acted upon. Results are provable, not just probable.
-
-### Key Properties:
-- **Model-agnostic** — runs on any open-source LLM (Llama, Mistral, Qwen, others)
-- **Fully local deployment** — data never leaves the client's sovereign jurisdiction
-- **Scales to million-agent simulations** via distributed architecture
+Loka Labs is building it.
 
 ---
 
-## 🌪️ Three Forces Converging
+## What We Do
+
+Loka Labs builds the Economic World Model — simulation infrastructure that lets governments, charter cities, and sovereign institutions verify the economic consequences of a decision before it touches a single life.
+
+---
+
+## The Problem
+
+Every major economic policy decision today is an experiment on real people.
+
+**Traditional macro models** (used by the IMF, World Bank) assume populations are identical, rational, and static. They are not.
+
+**Expert consultation** is subjective, slow, and cannot simulate emergent behavior across millions of heterogeneous agents.
+
+**Historical backtesting** explains the past. It cannot predict the consequences of novel policy in genuinely new environments — which is exactly the situation facing every charter city, AI jurisdiction, and sovereign economic zone being built today.
+
+One real-world policy trial costs $10M–$100M+ and takes 2–5 years. The cost of failure is measured in billions of dollars and millions of livelihoods.
+
+---
+
+## The Solution
+
+Loka Labs is the first simulation infrastructure purpose-built for economic systems. Three layers work together — no existing tool has all three:
+
+**Layer 1 · Simulation**
+LLM-powered economic agents that replicate individual behavior, decision logic, and social interaction at scale. Handles the heterogeneity and irrationality of real humans. Runs on open-source models, fully locally.
+
+**Layer 2 · Constraint**
+A first-principles economic engine: supply and demand, price elasticity, game theory, budget constraints, market clearing. Quantitative rules that prevent simulation drift and enforce economic reality. 
+*LLM handles human nature. Economics handles the physics.*
+
+**Layer 3 · Verification**
+A formal verification framework — rooted in the model-checking methodology pioneered by our Chief Scientist — that mathematically proves boundary conditions before results are acted upon. Results are provable, not just probable.
+
+**Key properties:**
+- Model-agnostic — runs on any open-source LLM (Llama, Mistral, Qwen, others)
+- Fully local deployment — data never leaves the client's sovereign jurisdiction
+- Scales to million-agent simulations via distributed architecture
+
+---
+
+## Why Now
 
 Three forces are converging to make this possible — and necessary — today.
 
-1. **Agent behavior cost collapsed:** LLM inference cost dropped 280× between 2022 and 2024 (Stanford AI Index 2025). What needed supercomputers in 2020 now runs on commodity clusters. By 2027, running a million economic agents in parallel will be trivial.
-2. **Distributed compute enables million-agent scale:** MIT AgentTorch has already demonstrated 5 million agent simulations — a full national digital twin of New Zealand — within an academic budget. Advances in distributed AI/ML infrastructure, directly reflected in our CTO's published research, make this broadly accessible now.
-3. **New economic bodies need new tools:** Charter cities, AI jurisdictions, and sovereign economic zones are being built from zero with no historical data, no legacy systems, and no existing simulation tools. 88% of organizations are now using AI in at least one function (McKinsey 2025), yet the tools for verifying economic outcomes before deployment do not exist.
+**01 · Agent behavior cost collapsed**
+LLM inference cost dropped 280× between 2022 and 2024 (Stanford AI Index 2025). What needed supercomputers in 2020 now runs on commodity clusters. By 2027, running a million economic agents in parallel will be trivial.
+
+**02 · Distributed compute enables million-agent scale**
+MIT AgentTorch has already demonstrated 5 million agent simulations — a full national digital twin of New Zealand — within an academic budget. Advances in distributed AI/ML infrastructure, directly reflected in our CTO's published research, make this broadly accessible now.
+
+**03 · New economic bodies need new tools**
+Charter cities, AI jurisdictions, and sovereign economic zones are being built from zero with no historical data, no legacy systems, and no existing simulation tools. 88% of organizations are now using AI in at least one function (McKinsey 2025), yet the tools for verifying economic outcomes before deployment do not exist.
 
 No one is building an Economic World Model. The window is open now.
 
 ---
 
-## 📈 Market Simulation Infrastructure
+## Market Opportunity
 
 Simulation is becoming the infrastructure layer of the intelligent economy. Four converging markets underpin this:
 
@@ -71,11 +101,14 @@ Gartner forecasts that by 2026, 40% of enterprise applications will embed AI age
 
 *(Sources: Epoch AI, Gartner, MarketsandMarkets, Deloitte · 2025)*
 
-**What we simulate:** Economic systems — not physical reality, not individual consumer preferences. The "physics" of an economy is different from the physics of the real world: it is driven by incentives, information asymmetry, expectations, game theory, and emergent behavior.
-
 ---
 
-## 🏗️ The Architecture
+## How It Works
+
+**What we simulate:**
+Economic systems — not physical reality, not individual consumer preferences. The "physics" of an economy is different from the physics of the real world: it is driven by incentives, information asymmetry, expectations, game theory, and emergent behavior.
+
+### The Architecture
 
 ```text
 ┌─────────────────────────────────────────────────────┐
@@ -98,10 +131,21 @@ Gartner forecasts that by 2026, 40% of enterprise applications will embed AI age
 
 Others stop at Layer 1. Loka Labs has all three.
 
-1. **Technical depth no one else has:** Formal verification (Sifakis, 2007 Turing Award) + distributed AI/ML systems (Jialin Li, OSDI & NSDI Best Paper Award winner). This combination exists nowhere else in a single founding team.
-2. **Full-stack simulation, not just LLM agents:** Three layers: behavior simulation (LLM) + economic constraints (first-principles engine) + formal verification. Others only have the first layer. The constraint and verification layers are what make results trustworthy enough for sovereign clients to act on.
-3. **Sovereign-first architecture:** Designed from day one for local deployment. Data never crosses borders. Model-agnostic — clients use whatever open-source LLM fits their jurisdiction and compliance requirements. This is a hard architectural requirement, not a feature.
-4. **Right market, right moment:** New economic systems are being built from zero. Charter cities, AI jurisdictions, sovereign economic zones have no historical data and no existing tools. We are not competing for a share of an existing market — we are defining a new one.
+---
+
+## Why Loka Wins
+
+**01 · Technical depth no one else has**
+Formal verification (Sifakis, 2007 Turing Award) + distributed AI/ML systems (Jialin Li, OSDI & NSDI Best Paper Award winner). This combination exists nowhere else in a single founding team.
+
+**02 · Full-stack simulation, not just LLM agents**
+Three layers: behavior simulation (LLM) + economic constraints (first-principles engine) + formal verification. Others only have the first layer. The constraint and verification layers are what make results trustworthy enough for sovereign clients to act on.
+
+**03 · Sovereign-first architecture**
+Designed from day one for local deployment. Data never crosses borders. Model-agnostic — clients use whatever open-source LLM fits their jurisdiction and compliance requirements. This is a hard architectural requirement, not a feature.
+
+**04 · Right market, right moment**
+New economic systems are being built from zero. Charter cities, AI jurisdictions, sovereign economic zones have no historical data and no existing tools. We are not competing for a share of an existing market — we are defining a new one.
 
 ---
 
