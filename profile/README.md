@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌍 The Economic World Model
+# ♾️ Loka: The Economic World Model 🌍 
 
 **Simulation infrastructure for sovereign economic decision-making in the AI era.**
 
@@ -177,10 +177,10 @@ Joseph Sifakis and Jialin Li are co-authoring a formal verification paper for ec
 
 ## 👥 Core Team
 
-- **Lora Li** — Co-founder & CEO (Parsons School of Design · Harvard University): Led strategic finance for a leading Ethereum L2, backed by Sequoia China, Tencent, Lightspeed, and Vitalik Buterin. Rare founder combining design thinking, capital markets judgment, and deep tech conviction.
-- **Akasha Zhu** — Co-founder & CRO (Tsinghua University · MIT): Founded Vinci (AI headphone). Deep academic network spanning AI and economics. Bridges research and real-world application.
-- **Jialin Li** — Co-founder & CTO (NUS School of Computing): OSDI and NSDI Best Paper Award winner. Published research: PipeOffload (ICML '25), TAPAS (ICPP '25), Cortex and Libra (NSDI '26). Research focus: distributed AI/ML systems and decentralized infrastructure — the exact technical stack Loka Labs is built on.
-- **Joseph Sifakis** — Chief Scientist (2007 Turing Award): Pioneer of model checking — the mathematical verification method now used in Airbus, NASA, and safety-critical systems worldwide. Actively publishing on World Model safety (IEEE ISSREW 2024, co-authored with Huawei RAMS Lab and VERIMAG). Research credibility is our moat: it is why sovereign clients trust us with their most sensitive economic data.
+- **[Lora Li](https://www.linkedin.com/in/lorali/)** — Co-founder & CEO (Parsons School of Design · Harvard University): Led strategic finance for a leading Ethereum L2, backed by Sequoia China, Tencent, Lightspeed, and Vitalik Buterin. Rare founder combining design thinking, capital markets judgment, and deep tech conviction.
+- **[Akasha Zhu](https://akasha.buzz/)** — Co-founder & CRO (Tsinghua University · MIT): Founded Vinci (AI headphone). Deep academic network spanning AI and economics. Bridges research and real-world application.
+- **[Jialin Li](https://www.comp.nus.edu.sg/~lijl/)** — Co-founder & CTO (NUS School of Computing): OSDI and NSDI Best Paper Award winner. Published research: PipeOffload (ICML '25), TAPAS (ICPP '25), Cortex and Libra (NSDI '26). Research focus: distributed AI/ML systems and decentralized infrastructure — the exact technical stack Loka Labs is built on.
+- **[Joseph Sifakis](https://www-verimag.imag.fr/~sifakis/)** — Chief Scientist (2007 Turing Award): Pioneer of model checking — the mathematical verification method now used in Airbus, NASA, and safety-critical systems worldwide. Actively publishing on World Model safety (IEEE ISSREW 2024, co-authored with Huawei RAMS Lab and VERIMAG). Research credibility is our moat: it is why sovereign clients trust us with their most sensitive economic data.
 
 ### Selected Research & Publications
 
@@ -192,3 +192,25 @@ Joseph Sifakis and Jialin Li are co-authoring a formal verification paper for ec
 - *TAPAS (ICPP 2025)*: Automatic derivation of tensor parallel strategies for large neural networks — 160× speedup. Core to running heterogeneous agent populations at scale.
 - *Cortex (NSDI 2026)*: Low-latency LLM access via semantic-aware knowledge caching. Core to efficient local deployment of the simulation engine.
 - *Libra (NSDI 2026)*: Flexible request partitioning and scheduling for unbalanced and dynamic LLM workloads. Handles the heterogeneous, time-varying computation patterns of economic agent simulation.
+
+## 🛠️ Development & Contribution
+
+This repository contains the core components of the Loka Network. We welcome contributions from the community!
+
+1. **Fork the repository**
+2. **Create a feature branch** (`git checkout -b feature/AmazingFeature`)
+3. **Commit your changes** (`git commit -m 'Add some AmazingFeature'`)
+4. **Push to the branch** (`git push origin feature/AmazingFeature`)
+5. **Open a Pull Request**
+
+Detailed development documentation can be found in our [Documentation](./docs).
+
+---
+
+<div align="center">
+
+**Built with ❤️ by the Loka Team**
+
+[Website](https://lokachain.org/) • [Twitter](https://x.com/lokachain)
+
+</div>
